@@ -1,0 +1,22 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    
+    # Block access to specific sensitive files
+    RewriteRule ^\.env$ - [F,L]
+    RewriteRule ^composer\.(json|lock)$ - [F,L]
+    RewriteRule ^package(-lock)?\.json$ - [F,L]
+    
+    # Block access to specific sensitive directories
+    RewriteRule ^(app|config|database|logs|routes|vendor)/ - [F,L]
+
+    # Handle Front Controller
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
+
+# Prevent directory listing
+Options -Indexes
+
+# Protect .htaccess themselves
+<Files ~ "^\.ht">
+    Require all denied
+</Files>

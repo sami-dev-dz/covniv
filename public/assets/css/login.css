@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.particles {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: clamp(15px, 4vw, 30px);
+}
+
+.container,
+.container1 {
+    background: white;
+    padding: clamp(20px, 5vw, 35px);
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+}
+
+.title,
+.title1 {
+    font-size: clamp(1.8rem, 4vw, 2.2rem);
+    font-weight: 700;
+    margin-bottom: clamp(15px, 4vw, 25px);
+    color: #2d3748;
+    position: relative;
+    display: inline-block;
+}
+
+.title::after,
+.title1::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    background-color: #4f46e5;
+    bottom: -8px;
+    left: 25%;
+    border-radius: 2px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: clamp(15px, 3vw, 20px);
+    width: 100%;
+}
+
+.inp,
+.inp1 {
+    display: flex;
+    flex-direction: column;
+    gap: clamp(12px, 2vw, 16px);
+    width: 100%;
+}
+
+.lock {
+    display: flex;
+    align-items: center;
+    background: #f8fafc;
+    border-radius: 10px;
+    padding: clamp(10px, 2vw, 12px) clamp(12px, 3vw, 16px);
+    position: relative;
+    border: 1px solid #e2e8f0;
+    transition: all 0.3s ease;
+}
+
+.lock:focus-within {
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2);
+}
+
+.lock i {
+    margin-right: 12px;
+    color: #4f46e5;
+    min-width: 20px;
+    font-size: clamp(16px, 1.2vw, 18px);
+}
+
+.lock input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: clamp(14px, 1vw, 16px);
+    padding: 6px 0;
+    color: #1e293b;
+}
+
+.lock input::placeholder {
+    color: #94a3b8;
+}
+
+.lock #togglePassword,
+.lock #toggleRepeatPassword {
+    cursor: pointer;
+    color: #74869c;
+    transition: color 0.2s ease;
+    font-size: clamp(14px, 1vw, 16px);
+    padding: 5px 0px 5px 90px;
+}
+
+.lock #togglePassword:hover,
+.lock #toggleRepeatPassword:hover {
+    color: #4f46e5;
+}
+
+.rem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: clamp(0.85rem, 1vw, 0.95rem);
+    margin: 5px 0 15px;
+}
+
+.rem div {
+    display: flex;
+    align-items: center;
+}
+
+.rem input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    accent-color: #4f46e5;
+}
+
+.rem .forgot-password {
+    color: #4f46e5;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    position: relative;
+}
+
+.rem .forgot-password:hover {
+    color: #3730a3;
+}
+
+.rem a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: #4f46e5;
+    transition: width 0.3s ease;
+}
+
+.rem a:hover::after {
+    width: 100%;
+}
+
+.butt,
+.butt1 {
+    background: linear-gradient(135deg, #4f46e5 0%, #6366f1 100%);
+    color: white;
+    border: none;
+    padding: 14px 25px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.3s;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
+    letter-spacing: 0.5px;
+}
+
+.butt:hover,
+.butt1:hover {
+    background: linear-gradient(135deg, #4338ca 0%, #4f46e5 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 7px 16px rgba(79, 70, 229, 0.4);
+}
+
+.butt:active,
+.butt1:active {
+    transform: translateY(1px);
+    box-shadow: 0 4px 8px rgba(79, 70, 229, 0.3);
+}
+
+.reg,
+.reg1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    font-size: clamp(0.85rem, 1vw, 0.95rem);
+    color: #64748b;
+}
+
+.reg a,
+.reg1 a {
+    color: #4f46e5;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    position: relative;
+}
+
+.reg a:hover,
+.reg1 a:hover {
+    color: #3730a3;
+}
+
+.reg a::after,
+.reg1 a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: #4f46e5;
+    transition: width 0.3s ease;
+}
+
+.reg a:hover::after,
+.reg1 a:hover::after {
+    width: 100%;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 5px 0;
+}
+
+.cont label {
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #2d3748;
+    font-size: clamp(0.85rem, 1vw, 0.95rem);
+}
+
+select {
+    padding: clamp(10px, 2vw, 12px) clamp(12px, 3vw, 16px);
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+    font-size: clamp(14px, 1vw, 16px);
+    background: #f8fafc;
+    color: #1e293b;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+select:focus {
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2);
+}
+
+select option {
+    color: #1e293b;
+}
+
+.error-messages {
+    color: #e53e3e;
+    background-color: #fff5f5;
+    border: 1px solid #fc8181;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-top: 16px;
+    text-align: left;
+    display: none;
+    font-size: 0.9rem;
+}
+
+.error-messages ul {
+    margin: 5px 0 0 0;
+    padding-left: 20px;
+}
+
+.input-error {
+    color: #dc3545;
+    font-size: 0.8rem;
+    margin-right: 70px;
+}
+
+.password-error {
+    color: #dc3545;
+    font-size: 0.8rem;
+    margin-right: 70px;
+}
+
+
+@media (max-width: 380px) {
+    .rem {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+}
+
+/* Pour les écrans très petits ou en mode paysage sur petits appareils */
+@media (max-height: 500px) and (orientation: landscape) {
+    .particles {
+        padding: 10px;
+        align-items: flex-start;
+    }
+
+    .container,
+    .container1 {
+        padding: 15px;
+    }
+}
