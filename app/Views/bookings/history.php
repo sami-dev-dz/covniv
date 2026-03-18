@@ -282,7 +282,7 @@
                             </div>
                             <h3 class="mb-2" style="font-size: 1.5rem;">Aucun trajet publié</h3>
                             <p class="text-muted mb-6">Vous n'avez pas encore proposé de covoiturage.</p>
-                            <a href="/publier-trajet" class="btn btn-primary" style="background-color: var(--secondary-600); border-color: var(--secondary-600);">Publier un trajet</a>
+                            <a href="/publication-trajet" class="btn btn-primary" style="background-color: var(--secondary-600); border-color: var(--secondary-600);">Publier un trajet</a>
                         </div>
                     <?php endif; ?>
                 </div>

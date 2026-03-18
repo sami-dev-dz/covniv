@@ -101,7 +101,7 @@
                             </div>
                             <h3 class="mb-2">Proposer un trajet</h3>
                             <p class="text-muted mb-6">Partagez votre trajet avec la communauté et aidez d'autres étudiants à se déplacer.</p>
-                            <a href="/publier-trajet" class="btn btn-primary w-full" style="background-color: var(--secondary-600);">
+                            <a href="/publication-trajet" class="btn btn-primary w-full" style="background-color: var(--secondary-600);">
                                 <i data-lucide="car"></i> Proposer
                             </a>
                         </div>

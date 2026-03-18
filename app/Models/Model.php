@@ -12,9 +12,6 @@ abstract class Model {
         $this->db = Database::getConnection();
     }
     
-    /**
-     * Find a record by ID
-     */
     public static function find($id) {
         $db = Database::getConnection();
         $table = static::$table;
