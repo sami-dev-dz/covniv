@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="public/logo.png" alt="CovNiv Logo" width="120" />
+  <i data-lucide="car-front"></i>
   <h1 align="center">CovNiv</h1>
   <p align="center">
     <strong>A secure, custom MVC-based carpooling platform designed for university students.</strong>
