@@ -24,7 +24,7 @@ class Database {
     public static function getConnection() {
         if (self::$connection === null) {
             $host = getenv('DB_HOST') ?: 'localhost';
-            $dbName = getenv('DB_DATABASE') ?: 'covnivII';
+            $dbName = getenv('DB_DATABASE') ?: 'uniride';
             $username = getenv('DB_USERNAME') ?: 'root';
             $password = getenv('DB_PASSWORD') ?: '';
 

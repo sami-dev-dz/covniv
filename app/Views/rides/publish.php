@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/main.css">
-    <title>CovNiv - Publier un trajet</title>
+    <title>UniRide - Publier un trajet</title>
 </head>
 <body>
     <!-- Navbar (Dashboard version) -->
@@ -12,7 +12,7 @@
         <div class="container navbar-container">
             <a href="/principal" class="navbar-brand">
                 <i data-lucide="car-front"></i>
-                CovNiv
+                UniRide
             </a>
             
             <button class="mobile-menu-btn" id="mobileMenuBtn">
@@ -248,7 +248,7 @@
     <!-- Footer -->
     <footer>
         <div class="container text-center text-muted text-sm">
-            <p>&copy; 2026 CovNiv - La solution simple pour les étudiants.</p>
+            <p>&copy; 2026 UniRide - La solution simple pour les étudiants.</p>
         </div>
     </footer>
 

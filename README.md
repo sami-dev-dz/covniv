@@ -1,6 +1,5 @@
 <div align="center">
-  <img src="public/logo.png" alt="CovNiv Logo" width="120" />
-  <h1 align="center">CovNiv</h1>
+  <h1 align="center">🚗 UniRide</h1>
   <p align="center">
     <strong>A secure, custom MVC-based carpooling platform designed for university students.</strong>
   </p>
@@ -16,7 +15,7 @@
 
 ## 🚗 Overview
 
-**CovNiv** is a modern, responsive carpooling web application developed specifically for university students. Built with a custom PHP MVC architecture, it offers a seamless and secure experience for searching, publishing, and managing rides. The platform prioritizes performance and security, featuring robust authentication, CSRF protection, and a professional RESTful API.
+**UniRide** is a modern, responsive carpooling web application developed specifically for university students. Built with a custom PHP MVC architecture, it offers a seamless and secure experience for searching, publishing, and managing rides. The platform prioritizes performance and security, featuring robust authentication, CSRF protection, and a professional RESTful API.
 
 ## 🚀 Key Features
 
@@ -49,8 +48,8 @@ Ensure you have the following installed:
 Clone the repository and navigate to the project directory:
 
 ```bash
-git clone https://github.com/sami-dev-dz/covniv.git
-cd covniv
+git clone https://github.com/sami-dev-dz/uniride.git
+cd uniride
 ```
 
 ### 3. Environment Setup
@@ -61,7 +60,7 @@ cp .env.example .env
 Update `.env` with your local settings:
 ```env
 DB_HOST=localhost
-DB_DATABASE=covnivii
+DB_DATABASE=uniride
 DB_USERNAME=root
 DB_PASSWORD=your_password
 API_KEY=your_secure_key
@@ -70,8 +69,8 @@ API_KEY=your_secure_key
 ### 4. Database Initialization
 Create the database and import the schema:
 ```bash
-mysql -u root -p -e "CREATE DATABASE covnivii CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;"
-mysql -u root -p covnivii < database/schema.sql
+mysql -u root -p -e "CREATE DATABASE uniride CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;"
+mysql -u root -p uniride < database/schema.sql
 ```
 
 ### 5. Final Configuration
@@ -82,7 +81,7 @@ Point your virtual host's document root to the `public/` directory and ensure UR
 The codebase is organized in a clear MVC-based modular structure to ensure maintainability:
 
 ```
-covniv/
+uniride/
 ├── app/                 # Core application logic
 │   ├── Controllers/     # Route logic (Auth, Ride, Message, etc.)
 │   ├── Models/          # Database interaction and data structures

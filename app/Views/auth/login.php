@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/main.css">
-    <title>CovNiv - Connexion</title>
+    <title>UniRide - Connexion</title>
 </head>
 <body>
     <div class="auth-container">
@@ -13,7 +13,7 @@
             <div style="margin-bottom: var(--spacing-8);">
                 <i data-lucide="car-front" style="width: 64px; height: 64px; color: white;"></i>
             </div>
-            <h2>Bienvenue sur CovNiv</h2>
+            <h2>Bienvenue sur UniRide</h2>
             <p>La solution de covoiturage exclusive pour les étudiants. Connectez-vous pour proposer ou trouver un trajet vers votre campus.</p>
         </div>
 

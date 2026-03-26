@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/main.css">
-    <title>CovNiv - Inscription</title>
+    <title>UniRide - Inscription</title>
 </head>
 <body>
     <div class="auth-container">
@@ -129,7 +129,7 @@
             <div style="margin-bottom: var(--spacing-8);">
                 <i data-lucide="users" style="width: 64px; height: 64px; color: white;"></i>
             </div>
-            <h2>Rejoignez CovNiv</h2>
+            <h2>Rejoignez UniRide</h2>
             <p>Une communauté fermée et sécurisée, réservée aux étudiants. Partagez plus que des trajets.</p>
         </div>
     </div>

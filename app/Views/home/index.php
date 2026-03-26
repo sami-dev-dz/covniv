@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/main.css">
-    <title>CovNiv - Covoiturage Étudiant</title>
+    <title>UniRide - Covoiturage Étudiant</title>
     <style>
         @media (max-width: 768px) {
             .hero .container {
@@ -30,7 +30,7 @@
         <div class="container navbar-container">
             <a href="/" class="navbar-brand">
                 <i data-lucide="car-front"></i>
-                CovNiv
+                UniRide
             </a>
             
             <button class="mobile-menu-btn" id="mobileMenuBtn">
@@ -60,7 +60,7 @@
             
             <div class="container" style="position: relative; z-index: 2;">
                 <div style="max-width: 800px; text-align: left;">
-                    <span class="badge badge-primary mb-4" style="background-color: var(--primary-600); color: white; border: none; box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);">Nouveau : Rejoignez la communauté CovNiv</span>
+                    <span class="badge badge-primary mb-4" style="background-color: var(--primary-600); color: white; border: none; box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);">Nouveau : Rejoignez la communauté UniRide</span>
                     <h1 style="font-size: 4rem; margin-bottom: var(--spacing-6); letter-spacing: -0.02em; line-height: 1.1; color: white; text-shadow: 0 2px 10px rgba(0,0,0,0.3);">Le covoiturage repensé pour les <span style="color: var(--primary-400);">étudiants</span></h1>
                     <p style="font-size: 1.35rem; color: rgba(255, 255, 255, 0.9); margin-bottom: var(--spacing-10); max-width: 650px; line-height: 1.6; text-shadow: 0 1px 4px rgba(0,0,0,0.2);">Partagez vos trajets, faites des économies et rencontrez d'autres étudiants de votre campus en toute simplicité et sécurité.</p>
                     <div class="flex gap-4">
@@ -78,7 +78,7 @@
         <section id="fonctionnalites" style="padding: var(--spacing-16) 0; background-color: var(--bg-surface);">
             <div class="container">
                 <div class="text-center mb-12" style="margin-bottom: var(--spacing-12);">
-                    <h2 class="mb-4" style="font-size: 2.25rem;">Pourquoi choisir CovNiv ?</h2>
+                    <h2 class="mb-4" style="font-size: 2.25rem;">Pourquoi choisir UniRide ?</h2>
                     <p class="text-muted" style="max-width: 600px; margin: 0 auto;">Une plateforme conçue spécifiquement pour répondre aux besoins de mobilité des étudiants universitaires.</p>
                 </div>
 
@@ -127,7 +127,7 @@
             <div class="container">
                 <div class="card" style="padding: var(--spacing-12); background: linear-gradient(135deg, var(--primary-600), var(--primary-700)); color: white; border: none;">
                     <h2 style="color: white; margin-bottom: var(--spacing-4); font-size: 2.25rem;">Prêt à prendre la route ?</h2>
-                    <p style="color: rgba(255,255,255,0.9); margin-bottom: var(--spacing-8); max-width: 600px; margin-left: auto; margin-right: auto; font-size: 1.125rem;">Rejoignez des centaines d'étudiants qui utilisent déjà CovNiv pour leurs déplacements quotidiens.</p>
+                    <p style="color: rgba(255,255,255,0.9); margin-bottom: var(--spacing-8); max-width: 600px; margin-left: auto; margin-right: auto; font-size: 1.125rem;">Rejoignez des centaines d'étudiants qui utilisent déjà UniRide pour leurs déplacements quotidiens.</p>
                     <a href="/sign-up" class="btn" style="background-color: white; color: var(--primary-700); font-weight: 600; padding: 0.75rem 2rem; font-size: 1.125rem;">Créer un compte gratuitement</a>
                 </div>
             </div>
@@ -141,7 +141,7 @@
                 <div class="footer-col">
                     <a href="/" class="navbar-brand" style="margin-bottom: var(--spacing-4); display: inline-flex;">
                         <i data-lucide="car-front"></i>
-                        CovNiv
+                        UniRide
                     </a>
                     <p class="text-muted" style="margin-top: var(--spacing-4);">La solution simple, économique et écologique pour les étudiants.</p>
                 </div>
@@ -164,7 +164,7 @@
                 <div class="footer-col">
                     <h4>Contact</h4>
                     <ul>
-                        <li><a href="mailto:contact@covniv.dz" style="display: flex; align-items: center; gap: 0.5rem;"><i data-lucide="mail" style="width: 1rem; height: 1rem;"></i> contact@covniv.dz</a></li>
+                        <li><a href="mailto:contact@uniride.dz" style="display: flex; align-items: center; gap: 0.5rem;"><i data-lucide="mail" style="width: 1rem; height: 1rem;"></i> contact@uniride.dz</a></li>
                     </ul>
                     <div class="social-links mt-4">
                         <a href="#"><i data-lucide="instagram"></i></a>
@@ -174,7 +174,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 CovNiv - Tous droits réservés.</p>
+                <p>&copy; 2026 UniRide - Tous droits réservés.</p>
                 <div class="flex items-center gap-2">
                     <span class="text-sm">Fait avec</span>
                     <i data-lucide="heart" style="width: 1rem; height: 1rem; color: var(--danger-500); fill: var(--danger-500);"></i>

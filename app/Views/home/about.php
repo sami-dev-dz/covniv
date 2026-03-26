@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/main.css">
-    <title>CovNiv - À propos</title>
+    <title>UniRide - À propos</title>
 </head>
 <body>
     <!-- Navbar -->
@@ -12,7 +12,7 @@
         <div class="container navbar-container">
             <a href="/" class="navbar-brand">
                 <i data-lucide="car-front"></i>
-                CovNiv
+                UniRide
             </a>
             
             <button class="mobile-menu-btn" id="mobileMenuBtn">
@@ -42,7 +42,7 @@
         <!-- Hero Section -->
         <section style="padding: var(--spacing-16) 0; background: linear-gradient(135deg, var(--primary-600), var(--primary-700)); color: white; text-align: center;">
             <div class="container">
-                <h1 style="color: white; font-size: 3rem; margin-bottom: var(--spacing-4);">À propos de CovNiv</h1>
+                <h1 style="color: white; font-size: 3rem; margin-bottom: var(--spacing-4);">À propos de UniRide</h1>
                 <p style="font-size: 1.25rem; color: rgba(255,255,255,0.9); max-width: 700px; margin: 0 auto;">Une solution de mobilité économique et écologique pensée par et pour la communauté universitaire.</p>
             </div>
         </section>
@@ -55,7 +55,7 @@
                     <div>
                         <h2 class="mb-4" style="font-size: 2.25rem; color: var(--primary-600);">Notre Mission</h2>
                         <p class="text-muted mb-4" style="font-size: 1.125rem;">
-                            CovNiv a été créé avec une vision claire : faciliter les déplacements des étudiants tout en réduisant l'empreinte écologique liée aux transports.
+                            UniRide a été créé avec une vision claire : faciliter les déplacements des étudiants tout en réduisant l'empreinte écologique liée aux transports.
                         </p>
                         <p class="text-muted mb-4" style="font-size: 1.125rem;">
                             Notre plateforme met en relation exclusivement les étudiants qui souhaitent partager leurs trajets quotidiens ou occasionnels vers leurs campus universitaires, offrant un cadre sécurisé (accès via email universitaire).
@@ -76,7 +76,7 @@
             <section class="mb-16" style="margin-bottom: var(--spacing-16);">
                 <div class="text-center mb-12" style="margin-bottom: var(--spacing-12);">
                     <h2 class="mb-2" style="font-size: 2.25rem;">Nos Valeurs Fondamentales</h2>
-                    <p class="text-muted">Ce qui nous motive chaque jour à améliorer CovNiv.</p>
+                    <p class="text-muted">Ce qui nous motive chaque jour à améliorer UniRide.</p>
                 </div>
 
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--spacing-6);">
@@ -109,7 +109,7 @@
             <!-- Team Section -->
             <section>
                 <div class="text-center mb-12" style="margin-bottom: var(--spacing-12);">
-                    <h2 class="mb-2" style="font-size: 2.25rem;">L'Équipe derrière CovNiv</h2>
+                    <h2 class="mb-2" style="font-size: 2.25rem;">L'Équipe derrière UniRide</h2>
                     <p class="text-muted">Des étudiants passionnés par le code et l'écologie.</p>
                 </div>
 
@@ -161,7 +161,7 @@
     <!-- Footer -->
     <footer>
         <div class="container text-center text-muted text-sm">
-            <p>&copy; 2026 CovNiv - La solution simple pour les étudiants.</p>
+            <p>&copy; 2026 UniRide - La solution simple pour les étudiants.</p>
         </div>
     </footer>
 

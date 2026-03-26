@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/main.css">
-    <title>CovNiv - Tableau de bord</title>
+    <title>UniRide - Tableau de bord</title>
 </head>
 <body>
     <!-- Navbar (Dashboard version) -->
@@ -12,7 +12,7 @@
         <div class="container navbar-container">
             <a href="/principal" class="navbar-brand">
                 <i data-lucide="car-front"></i>
-                CovNiv
+                UniRide
             </a>
             
             <button class="mobile-menu-btn" id="mobileMenuBtn">
@@ -67,7 +67,7 @@
                 <?php if (isset($prenom)): ?>
                     <div class="card mb-6" style="background: linear-gradient(135deg, var(--primary-600), var(--primary-700)); color: white; border: none; padding: var(--spacing-6);">
                         <h2 style="color: white; margin-bottom: 0;">Bonjour, <?= htmlspecialchars($prenom); ?> 👋</h2>
-                        <p style="color: rgba(255,255,255,0.9); margin-top: var(--spacing-2);">Bienvenue sur votre espace CovNiv. Que souhaitez-vous faire aujourd'hui ?</p>
+                        <p style="color: rgba(255,255,255,0.9); margin-top: var(--spacing-2);">Bienvenue sur votre espace UniRide. Que souhaitez-vous faire aujourd'hui ?</p>
                     </div>
                 <?php endif; ?>
 
@@ -114,7 +114,7 @@
     <!-- Footer -->
     <footer>
         <div class="container text-center text-muted text-sm">
-            <p>&copy; 2026 CovNiv - La solution simple pour les étudiants.</p>
+            <p>&copy; 2026 UniRide - La solution simple pour les étudiants.</p>
         </div>
     </footer>
 

@@ -106,7 +106,7 @@ if (!file_exists(BASE_PATH . 'logs')) {
 ini_set('log_errors', 1);
 ini_set('error_log', BASE_PATH . 'logs/error.log');
 
-// If the project is in a subfolder (like /covniv/), remove that base path from the request
+// If the project is in a subfolder (like /uniride/), remove that base path from the request
 $baseDir = str_replace('\\', '/', dirname($scriptName));
 
 if (strpos($requestPath, $baseDir) === 0) {

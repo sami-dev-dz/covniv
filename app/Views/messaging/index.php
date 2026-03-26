@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/main.css">
-    <title>CovNiv - Messagerie</title>
+    <title>UniRide - Messagerie</title>
     <style>
         .messaging-container {
             display: flex;
@@ -193,7 +193,7 @@
         <div class="container navbar-container">
             <a href="/principal" class="navbar-brand">
                 <i data-lucide="car-front"></i>
-                CovNiv
+                UniRide
             </a>
             
             <button class="mobile-menu-btn" id="mobileMenuBtn">
