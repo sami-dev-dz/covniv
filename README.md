@@ -1,9 +1,5 @@
 <div align="center">
-<<<<<<< HEAD
   <h1 align="center">🚗 UniRide</h1>
-=======
-  <h1 align="center">🚗 CovNiv</h1>
->>>>>>> e1bef7075a95289c88746eb14d947e4fc34aec8d
   <p align="center">
     <strong>A secure, custom MVC-based carpooling platform designed for university students.</strong>
   </p>
@@ -19,11 +15,7 @@
 
 ## 🚗 Overview
 
-<<<<<<< HEAD
 **UniRide** is a modern, responsive carpooling web application developed specifically for university students. Built with a custom PHP MVC architecture, it offers a seamless and secure experience for searching, publishing, and managing rides. The platform prioritizes performance and security, featuring robust authentication, CSRF protection, and a professional RESTful API.
-=======
-**CovNiv** is a modern, responsive carpooling web application developed specifically for university students. Built with a custom PHP MVC architecture, it offers a seamless and secure experience for searching, publishing, and managing rides. The platform prioritizes performance and security, featuring robust authentication, CSRF protection, and a professional RESTful API.
->>>>>>> e1bef7075a95289c88746eb14d947e4fc34aec8d
 
 ## 🚀 Key Features
 
@@ -56,13 +48,8 @@ Ensure you have the following installed:
 Clone the repository and navigate to the project directory:
 
 ```bash
-<<<<<<< HEAD
 git clone https://github.com/sami-dev-dz/uniride.git
 cd uniride
-=======
-git clone https://github.com/sami-dev-dz/covniv.git
-cd covniv
->>>>>>> e1bef7075a95289c88746eb14d947e4fc34aec8d
 ```
 
 ### 3. Environment Setup
@@ -73,11 +60,7 @@ cp .env.example .env
 Update `.env` with your local settings:
 ```env
 DB_HOST=localhost
-<<<<<<< HEAD
 DB_DATABASE=uniride
-=======
-DB_DATABASE=covnivii
->>>>>>> e1bef7075a95289c88746eb14d947e4fc34aec8d
 DB_USERNAME=root
 DB_PASSWORD=your_password
 API_KEY=your_secure_key
@@ -86,7 +69,6 @@ API_KEY=your_secure_key
 ### 4. Database Initialization
 Create the database and import the schema:
 ```bash
-<<<<<<< HEAD
 mysql -u root -p -e "CREATE DATABASE uniride CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;"
 mysql -u root -p uniride < database/schema.sql
 ```
@@ -123,44 +105,6 @@ Contributions to improve the student commuting experience are always welcome!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-=======
-mysql -u root -p -e "CREATE DATABASE covnivii CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;"
-mysql -u root -p covnivii < database/schema.sql
-```
-
-### 5. Final Configuration
-Point your virtual host's document root to the `public/` directory and ensure URL rewriting is enabled.
-
-## 📁 Folder Structure
-
-The codebase is organized in a clear MVC-based modular structure to ensure maintainability:
-
-```
-covniv/
-├── app/                 # Core application logic
-│   ├── Controllers/     # Route logic (Auth, Ride, Message, etc.)
-│   ├── Models/          # Database interaction and data structures
-│   ├── Views/           # UI templates and layouts
-│   ├── Services/        # Business logic & security middlewares
-│   └── Helpers/         # Reusable utility functions
-├── config/              # Database and application configuration
-├── database/            # SQL schemas and migration scripts
-├── public/              # Document root (Entry point, assets, uploads)
-├── routes/              # Centralized route definitions
-└── logs/                # System and application logs
-```
-
-## 🤝 Contributing
-
-Contributions to improve the student commuting experience are always welcome! 
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'feat: Add AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
->>>>>>> e1bef7075a95289c88746eb14d947e4fc34aec8d
 ## 📄 License
 
 Distributed under the MIT License. See `LICENSE` for more information.
